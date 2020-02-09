@@ -1,4 +1,7 @@
-#install.packages('ggplot2')
+# NOTE TO CONTRIBUTORS: Beyond expanding the functionality of EggHatch there other potential considerations in tis future development. For example:
+# we could try and remove as many pacakge dependencies as possible (though this might be quite difficult & ultimately unnecessary);
+# we could also imoriove the script below by reducing the number of loops and incorporating piping (i.e., %>%) where possible.
+
 
 # Object inspection shows that layers are numbered so should be able to access each layer by inputting number also. For example change function
 # input to include layer=1(a=4), for example? Maybe a better way to do that? Most sensible way would be to loop through layers and determine
