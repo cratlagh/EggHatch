@@ -1,6 +1,6 @@
 #install.packages('ggplot2')
 
-# Object inspection shows that laters are numbered so should be able to access each layer by inputting number also. For example change fucntion
+# Object inspection shows that layers are numbered so should be able to access each layer by inputting number also. For example change function
 # input to include layer=1(a=4), for example? Maybe a better way to do that? Most sensible way would be to loop through layers and determine
 # the index number of the bar for that layer. Removes need for extra input. May need to perform addition or subtraction to values if each layer
 # resets index. Investigate.
@@ -613,5 +613,3 @@ EggHatch <- function(ggplot2_plot, cond.list, width_Man = NULL){
 # Numbers represent data index (row number) in dataframe
 EggHatch_output<-EggHatch(example_plot, ('b=1, A=2, Ba=3, C=4, d=5, Dc=6, ABcD=7'))
 EggHatch_output
-    
-TwoFucks <- EggHatch(FancyGraphs, (''))
