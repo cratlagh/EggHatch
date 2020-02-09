@@ -1,4 +1,4 @@
-# NOTE TO CONTRIBUTORS: Beyond expanding the functionality of EggHatch there other potential considerations in tis future development. For example:
+# NOTE TO CONTRIBUTORS: Beyond expanding the functionality of EggHatch there are other potential considerations for its future development. For example:
 # we could try and remove as many pacakge dependencies as possible (though this might be quite difficult & ultimately unnecessary);
 # we could also imoriove the script below by reducing the number of loops and incorporating piping (i.e., %>%) where possible.
 
